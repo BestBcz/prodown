@@ -1,107 +1,147 @@
 import requests
-from bs4 import BeautifulSoup
-from datetime import datetime
+import re
 import csv
 import time
+from datetime import datetime
 
-# 设置请求头
-headers = {'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/91.0.4472.124'}
+# MediaWiki API URL
+api_url = "https://liquipedia.net/counterstrike/api.php"
 
-# 手动整理的知名选手名单（约177个，可扩展）
-famous_players = [
+# 国家名翻译表
+country_translations = {
+    "Ukraine": "乌克兰",
+    "France": "法国",
+    "Bosnia and Herzegovina": "波黑",
+    "Denmark": "丹麦",
+    "Brazil": "巴西",
+    "Sweden": "瑞典",
+    "Russia": "俄罗斯",
+    "Poland": "波兰",
+    "United States": "美国",
+    "Canada": "加拿大",
+    "Germany": "德国",
+    "Finland": "芬兰",
+    "Norway": "挪威"
+    # 可根据需要扩展
+}
+
+def get_player_info(player_name):
+    """获取指定选手的资料"""
+    # 调用 API 获取 Wiki 文本
+    params = {
+        "action": "parse",
+        "page": player_name,
+        "format": "json",
+        "prop": "wikitext"
+    }
+    response = requests.get(api_url, params=params)
+    data = response.json()
+
+    # 检查 API 返回是否有效
+    if 'error' in data or 'parse' not in data:
+        return {"姓名": player_name, "队伍": "未找到", "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置", "Major参与次数": 0}
+
+    wikitext = data['parse']['wikitext']['*']
+
+    # 提取 infobox
+    infobox_match = re.search(r'\{\{Infobox player\n(.*?)\n\}\}', wikitext, re.DOTALL)
+    if not infobox_match:
+        return {"姓名": player_name, "队伍": "未找到", "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置", "Major参与次数": 0}
+
+    infobox_text = infobox_match.group(1)
+    infobox = {}
+    for line in infobox_text.split('\n'):
+        if '=' in line:
+            key, value = line.split('=', 1)
+            infobox[key.strip().replace('|', '')] = value.strip()
+
+    # 提取队伍
+    team = infobox.get('team', '自由选手')
+
+    # 提取并翻译国籍
+    nationality = infobox.get('nationality', infobox.get('country', '未知国籍'))
+    nationality = re.sub(r'\[\[|\]\]', '', nationality)  # 清理 Wiki 链接
+    nationality_cn = country_translations.get(nationality, nationality)
+
+    # 提取出生日期并计算年龄
+    birth = infobox.get('birth_date', '')
+    age = "未知年龄"
+    if birth:
+        year_match = re.search(r'\d{4}', birth)  # 匹配四位年份
+        if year_match:
+            birth_year = int(year_match.group(0))
+            age = datetime.now().year - birth_year
+
+    # 提取游戏内位置
+    role = infobox.get('role', '未知位置')
+    if 'rifler' in role.lower():
+        role = "Rifler"  # 统一为 Rifler
+
+    # 统计 Major 参与次数
+    major_count = len(re.findall(r'\{\{Tournament results row.*?Major.*?\}\}', wikitext, re.DOTALL))
+
+    # 返回选手信息字典
+    return {
+        "姓名": player_name,
+        "队伍": team,
+        "国籍": nationality_cn,
+        "年龄": age,
+        "游戏内位置": role,
+        "Major参与次数": major_count
+    }
+
+# 选手名单
+players = [
     "s1mple", "ZywOo", "NiKo", "dev1ce", "coldzera", "f0rest", "GeT_RiGhT",
     "kennyS", "olofmeister", "GuardiaN", "paszaBiceps", "Snax", "shox", "KRIMZ",
     "flusha", "JW", "Xyp9x", "dupreeh", "gla1ve", "magisk", "electronic",
-    "Boombl4", "Perfecto", "b1t", "m0NESY", "donk", "Ax1Le", "sh1ro", "nafany",
-    "Stewie2K", "ELiGE", "twistzz", "NAF", "nitr0", "tarik", "autimatic",
-    "Skadoodle", "Hiko", "seangares", "daps", "stanislaw", "Brehze", "Ethan",
-    "cerq", "dycha", "hades", "mantuu", "ropz", "broky", "karrigan", "rain",
-    "tabseN", "syrsoN", "tiziaN", "gade", "stavn", "cadiaN", "TeSeS", "sjuush",
-    "refrezh", "blameF", "k0nfig", "valde", "acoR", "jabbi", "nicoodoz",
-    "Spinx", "flamie", "sdy", "yekindar", "degster", "patsi", "r1nkle",
-    "headtr1ck", "Mir", "Jame", "FL1T", "Qikert", "Buster",
-    "WorldEdit", "markeloff", "Edward", "zeus", "starix", "ceh9",
-    "neo", "TaZ", "pasha", "byali", "FalleN", "fer", "TACO", "fnx", "LUCAS1",
-    "HEN1", "kscerato", "yuurih", "arT", "VINI", "saffee", "drop", "chelo",
-    "biguzera", "felps", "zews", "Boltz", "bit", "trk", "MalbsMd", "chrisJ",
-    "oskar", "STYKO", "ISSAA", "woxic", "XANTARES", "Calyx", "MAJ3R", "hampus",
-    "Plopski", "nawwk", "Golden", "REZ", "Brollan", "es3tag", "farlig", "bubzkji",
-    "Lucky", "poizon", "ottoNd", "allu", "sergej", "xseveN", "Aleksib", "suNny",
-     "jks", "AZR", "Gratisfaction", "Liazz",  "INS",
-    "BnTeT", "LETN1",  "adreN", "RUSH",
-    "ScreaM", "Ex6TenZ", "SmithZz", "RpK", "bodyy", "NBK-", "apEX",
-    "Happy", "KioShiMa", "Zonic", "THREAT", "pronax", "dennis", "twist",
-    "Lekr0", "draken",  "Maikelele", "fox", "aizy", "MSL",  "cajunb",
-    "TenZ","s0m", "smooya", "Grim", "floppy", "oSee","junior", "ztr",  "frozen",
-    "huNter-", "NertZ", "SunPayus", "jL"
+    "Boombl4", "Perfecto", "b1t", "m0NESY", "donk", "Ax1Le", "sh1ro"
 ]
 
-print(f"知名选手名单包含 {len(famous_players)} 个选手")
+# CSV 文件路径
+csv_file = 'cs2_players.csv'
 
-# 检查已处理的数据
-csv_file = 'cs2_famous_players.csv'
-processed_urls = set()
+# 检查已处理的数据，避免重复
+processed_players = set()
 try:
     with open(csv_file, 'r', encoding='utf-8') as file:
         reader = csv.reader(file)
-        next(reader)
+        next(reader)  # 跳过表头
         for row in reader:
-            processed_urls.add(row[0])
+            processed_players.add(row[0])
 except FileNotFoundError:
     pass
 
-# 写入CSV
+# 写入 CSV
 with open(csv_file, 'a', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    if not processed_urls:
-        writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置'])
+    # 如果文件是新的，写入表头
+    if not processed_players:
+        writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置', 'Major参与次数'])
 
-    for name in famous_players:
-        if name in processed_urls:
-            print(f"已处理: {name}，跳过")
+    for player in players:
+        if player in processed_players:
+            print(f"已处理: {player}，跳过")
             continue
 
-        player_url = f"https://liquipedia.net/counterstrike/{name}"
-        print(f"正在访问: {player_url}")
+        print(f"正在查询: {player}")
+        info = get_player_info(player)
 
-        try:
-            response = requests.get(player_url, headers=headers, timeout=10)
-            soup = BeautifulSoup(response.text, 'html.parser')
+        # 打印结果
+        print(f"姓名: {info['姓名']}")
+        print(f"队伍: {info['队伍']}")
+        print(f"国籍: {info['国籍']}")
+        print(f"年龄: {info['年龄']}")
+        print(f"游戏内位置: {info['游戏内位置']}")
+        print(f"Major参与次数: {info['Major参与次数']}")
+        print("-" * 50)
 
-            if not soup.find('div', class_='infobox-cell-2', string='Nationality:'):
-                print("这不是选手页面，跳过")
-                continue
+        # 写入 CSV
+        writer.writerow([
+            info['姓名'], info['队伍'], info['国籍'],
+            info['年龄'], info['游戏内位置'], info['Major参与次数']
+        ])
 
-            team_elem = soup.find('div', class_='infobox-cell-2', string='Team:')
-            team = team_elem.find_next('div').text.strip() if team_elem else "自由选手"
-            nationality_elem = soup.find('div', class_='infobox-cell-2', string='Nationality:')
-            nationality = nationality_elem.find_next('div').text.strip() if nationality_elem else "未知国籍"
-            birth_elem = soup.find('div', class_='infobox-cell-2', string='Born:')
-            age = "未知年龄"
-            if birth_elem:
-                birth_date = birth_elem.find_next('div').text.strip()
-                try:
-                    birth_parts = birth_date.split(',')
-                    if len(birth_parts) > 1:
-                        birth_year = int(birth_parts[-1].strip().split()[0])
-                        age = datetime.now().year - birth_year
-                except (ValueError, IndexError):
-                    age = "未知年龄"
-            role_elem = soup.find('div', class_='infobox-cell-2', string='Role:')
-            role = role_elem.find_next('div').text.strip() if role_elem else "未知位置"
-
-            print(f"姓名: {name}")
-            print(f"队伍: {team}")
-            print(f"国籍: {nationality}")
-            print(f"年龄: {age}")
-            print(f"游戏内位置: {role}")
-            print("-" * 50)
-
-            writer.writerow([name, team, nationality, age, role])
-
-        except requests.exceptions.RequestException as e:
-            print(f"请求错误: {e}，跳过")
-
-        time.sleep(0.2)  # 延时0.2秒
+        time.sleep(0.5)  # 避免请求过频
 
 print(f"数据已保存到 {csv_file}")
