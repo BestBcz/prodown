@@ -7,23 +7,6 @@ from datetime import datetime
 # MediaWiki API URL
 api_url = "https://liquipedia.net/counterstrike/api.php"
 
-# 国家名翻译表
-country_translations = {
-    "Ukraine": "乌克兰",
-    "France": "法国",
-    "Bosnia and Herzegovina": "波黑",
-    "Denmark": "丹麦",
-    "Brazil": "巴西",
-    "Sweden": "瑞典",
-    "Russia": "俄罗斯",
-    "Poland": "波兰",
-    "United States": "美国",
-    "Canada": "加拿大",
-    "Germany": "德国",
-    "Finland": "芬兰",
-    "Norway": "挪威"
-    # 可根据需要扩展
-}
 
 def get_player_info(player_name):
     """获取指定选手的资料"""
@@ -61,7 +44,6 @@ def get_player_info(player_name):
     # 提取并翻译国籍
     nationality = infobox.get('nationality', infobox.get('country', '未知国籍'))
     nationality = re.sub(r'\[\[|\]\]', '', nationality)  # 清理 Wiki 链接
-    nationality_cn = country_translations.get(nationality, nationality)
 
     # 提取出生日期并计算年龄
     birth = infobox.get('birth_date', '')
@@ -77,17 +59,15 @@ def get_player_info(player_name):
     if 'rifler' in role.lower():
         role = "Rifler"  # 统一为 Rifler
 
-    # 统计 Major 参与次数
-    major_count = len(re.findall(r'\{\{Tournament results row.*?Major.*?\}\}', wikitext, re.DOTALL))
+
 
     # 返回选手信息字典
     return {
         "姓名": player_name,
         "队伍": team,
-        "国籍": nationality_cn,
+        "国籍": nationality,
         "年龄": age,
         "游戏内位置": role,
-        "Major参与次数": major_count
     }
 
 # 选手名单
@@ -95,11 +75,17 @@ players = [
     "s1mple", "ZywOo", "NiKo", "dev1ce", "coldzera", "f0rest", "GeT_RiGhT",
     "kennyS", "olofmeister", "GuardiaN", "paszaBiceps", "Snax", "shox", "KRIMZ",
     "flusha", "JW", "Xyp9x", "dupreeh", "gla1ve", "magisk", "electronic",
-    "Boombl4", "Perfecto", "b1t", "m0NESY", "donk", "Ax1Le", "sh1ro"
+    "Boombl4", "Perfecto", "b1t", "m0NESY", "donk", "Ax1Le", "magixx","chopper","zont1x","siuhy","elige",
+    "bLitz","Techno","Senzu","mzinho","910","Wicadia",
+    "HeavyGod","torzsi","Jimpphat","flameZ","mezii","jottAAA","iM","w0nderful","kyxsan","Maka","Staehr","FL4MUS",
+    "fame","ICY","NertZ","ultimate","snow","nqz","Tauson","sl3nd",
+    "PR","story","skullz","exit","Lucaozy","brnz4n","insani","phzy","JBa","nicoodoz","LNZ","JDC",
+    "fear","somebody","CYPHER","jkaem","kaze","ChildKing","L1haNg","Attacker","JamYoung","Jee","Mercury","Moseyuh",
+    "Westmelon","z4kr","EmiliaQAQ","C4LLM3SU3","xertioN"
 ]
 
 # CSV 文件路径
-csv_file = 'cs2_players.csv'
+csv_file = 'players.csv'
 
 # 检查已处理的数据，避免重复
 processed_players = set()
@@ -117,7 +103,7 @@ with open(csv_file, 'a', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
     # 如果文件是新的，写入表头
     if not processed_players:
-        writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置', 'Major参与次数'])
+        writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置'])
 
     for player in players:
         if player in processed_players:
@@ -133,13 +119,12 @@ with open(csv_file, 'a', newline='', encoding='utf-8') as file:
         print(f"国籍: {info['国籍']}")
         print(f"年龄: {info['年龄']}")
         print(f"游戏内位置: {info['游戏内位置']}")
-        print(f"Major参与次数: {info['Major参与次数']}")
         print("-" * 50)
 
         # 写入 CSV
         writer.writerow([
             info['姓名'], info['队伍'], info['国籍'],
-            info['年龄'], info['游戏内位置'], info['Major参与次数']
+            info['年龄'], info['游戏内位置']
         ])
 
         time.sleep(0.5)  # 避免请求过频
