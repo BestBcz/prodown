@@ -22,14 +22,20 @@ def get_player_info(player_name):
 
     # 检查 API 返回是否有效
     if 'error' in data or 'parse' not in data:
-        return {"姓名": player_name, "队伍": "未找到", "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置", "Major参与次数": 0}
+        return {
+            "姓名": player_name, "队伍": "未找到",
+            "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置"
+        }
 
     wikitext = data['parse']['wikitext']['*']
 
     # 提取 infobox
     infobox_match = re.search(r'\{\{Infobox player\n(.*?)\n\}\}', wikitext, re.DOTALL)
     if not infobox_match:
-        return {"姓名": player_name, "队伍": "未找到", "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置", "Major参与次数": 0}
+        return {
+            "姓名": player_name, "队伍": "未找到",
+            "国籍": "未知国籍", "年龄": "未知年龄", "游戏内位置": "未知位置"
+        }
 
     infobox_text = infobox_match.group(1)
     infobox = {}
@@ -49,7 +55,7 @@ def get_player_info(player_name):
     birth = infobox.get('birth_date', '')
     age = "未知年龄"
     if birth:
-        year_match = re.search(r'\d{4}', birth)  # 匹配四位年份
+        year_match = re.search(r'\d{4}', birth)
         if year_match:
             birth_year = int(year_match.group(0))
             age = datetime.now().year - birth_year
@@ -57,11 +63,8 @@ def get_player_info(player_name):
     # 提取游戏内位置
     role = infobox.get('role', '未知位置')
     if 'rifler' in role.lower():
-        role = "Rifler"  # 统一为 Rifler
+        role = "Rifler"
 
-
-
-    # 返回选手信息字典
     return {
         "姓名": player_name,
         "队伍": team,
@@ -69,6 +72,7 @@ def get_player_info(player_name):
         "年龄": age,
         "游戏内位置": role,
     }
+
 
 # 选手名单
 players = [
@@ -87,29 +91,12 @@ players = [
 # CSV 文件路径
 csv_file = 'players.csv'
 
-# 检查已处理的数据，避免重复
-processed_players = set()
-try:
-    with open(csv_file, 'r', encoding='utf-8') as file:
-        reader = csv.reader(file)
-        next(reader)  # 跳过表头
-        for row in reader:
-            processed_players.add(row[0])
-except FileNotFoundError:
-    pass
-
-# 写入 CSV
-with open(csv_file, 'a', newline='', encoding='utf-8') as file:
+# 覆盖写入 CSV
+with open(csv_file, 'w', newline='', encoding='utf-8') as file:
     writer = csv.writer(file)
-    # 如果文件是新的，写入表头
-    if not processed_players:
-        writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置'])
+    writer.writerow(['姓名', '队伍', '国籍', '年龄', '游戏内位置'])  # 表头
 
     for player in players:
-        if player in processed_players:
-            print(f"已处理: {player}，跳过")
-            continue
-
         print(f"正在查询: {player}")
         info = get_player_info(player)
 
@@ -129,4 +116,4 @@ with open(csv_file, 'a', newline='', encoding='utf-8') as file:
 
         time.sleep(0.5)  # 避免请求过频
 
-print(f"数据已保存到 {csv_file}")
+print(f"数据已覆盖保存到 {csv_file}")
