@@ -13,7 +13,7 @@
 - ✅ 角色信息增强（HLTV + 本地数据库）
 
 ## 使用方法
-
+pip install -r requirements.txt
 ### 1. 更新所有选手
 ```bash
 python players_updater.py
