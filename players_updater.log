@@ -1328,3 +1328,761 @@
 2025-08-06 03:30:46,745 - INFO - 从HLTV获取到角色: s1mple - AWPer
 2025-08-06 03:30:46,745 - INFO - ✓ 成功更新: s1mple - BC.Game Esports
 2025-08-06 03:30:46,745 - INFO - 更新完成！成功更新 1/1 个选手
+2025-12-11 02:31:20,861 - INFO - 开始CS2选手信息更新
+2025-12-11 02:31:20,862 - INFO - 从 players.csv 加载了 211 个选手姓名
+2025-12-11 02:31:20,862 - INFO - 开始更新 211 个选手的信息...
+2025-12-11 02:31:20,862 - INFO - 正在处理 (1/211): s1mple
+2025-12-11 02:31:21,734 - ERROR - 请求失败 https://liquipedia.net/counterstrike/s1mple: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/s1mple
+2025-12-11 02:31:21,734 - WARNING - ✗ 更新失败: s1mple
+2025-12-11 02:31:21,734 - INFO - 正在处理 (2/211): ZywOo
+2025-12-11 02:31:22,123 - ERROR - 请求失败 https://liquipedia.net/counterstrike/ZywOo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/ZywOo
+2025-12-11 02:31:22,123 - WARNING - ✗ 更新失败: ZywOo
+2025-12-11 02:31:22,123 - INFO - 正在处理 (3/211): NiKo
+2025-12-11 02:31:23,122 - ERROR - 请求失败 https://liquipedia.net/counterstrike/NiKo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/NiKo
+2025-12-11 02:31:23,122 - WARNING - ✗ 更新失败: NiKo
+2025-12-11 02:31:23,122 - INFO - 正在处理 (4/211): dev1ce
+2025-12-11 02:31:24,122 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dev1ce: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dev1ce
+2025-12-11 02:31:24,123 - WARNING - ✗ 更新失败: dev1ce
+2025-12-11 02:31:24,123 - INFO - 正在处理 (5/211): coldzera
+2025-12-11 02:31:25,124 - ERROR - 请求失败 https://liquipedia.net/counterstrike/coldzera: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/coldzera
+2025-12-11 02:31:25,124 - WARNING - ✗ 更新失败: coldzera
+2025-12-11 02:31:25,124 - INFO - 正在处理 (6/211): f0rest
+2025-12-11 02:31:26,128 - ERROR - 请求失败 https://liquipedia.net/counterstrike/f0rest: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/f0rest
+2025-12-11 02:31:26,128 - WARNING - ✗ 更新失败: f0rest
+2025-12-11 02:31:26,128 - INFO - 正在处理 (7/211): GeT_RiGhT
+2025-12-11 02:31:27,124 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GeT_RiGhT: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GeT_RiGhT
+2025-12-11 02:31:27,124 - WARNING - ✗ 更新失败: GeT_RiGhT
+2025-12-11 02:31:27,124 - INFO - 正在处理 (8/211): kennyS
+2025-12-11 02:31:28,332 - ERROR - 请求失败 https://liquipedia.net/counterstrike/kennyS: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/kennyS
+2025-12-11 02:31:28,332 - WARNING - ✗ 更新失败: kennyS
+2025-12-11 02:31:28,332 - INFO - 正在处理 (9/211): olofmeister
+2025-12-11 02:31:29,137 - ERROR - 请求失败 https://liquipedia.net/counterstrike/olofmeister: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/olofmeister
+2025-12-11 02:31:29,137 - WARNING - ✗ 更新失败: olofmeister
+2025-12-11 02:31:29,137 - INFO - 正在处理 (10/211): GuardiaN
+2025-12-11 02:31:30,125 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GuardiaN: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GuardiaN
+2025-12-11 02:31:30,125 - WARNING - ✗ 更新失败: GuardiaN
+2025-12-11 02:31:30,125 - INFO - 进度: 10/211 (4.7%)
+2025-12-11 02:31:30,125 - INFO - 正在处理 (11/211): Snax
+2025-12-11 02:31:31,125 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Snax: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Snax
+2025-12-11 02:31:31,125 - WARNING - ✗ 更新失败: Snax
+2025-12-11 02:31:31,125 - INFO - 正在处理 (12/211): shox
+2025-12-11 02:31:32,126 - ERROR - 请求失败 https://liquipedia.net/counterstrike/shox: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/shox
+2025-12-11 02:31:32,126 - WARNING - ✗ 更新失败: shox
+2025-12-11 02:31:32,126 - INFO - 正在处理 (13/211): KRIMZ
+2025-12-11 02:31:33,126 - ERROR - 请求失败 https://liquipedia.net/counterstrike/KRIMZ: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/KRIMZ
+2025-12-11 02:31:33,126 - WARNING - ✗ 更新失败: KRIMZ
+2025-12-11 02:31:33,127 - INFO - 正在处理 (14/211): flusha
+2025-12-11 02:31:34,128 - ERROR - 请求失败 https://liquipedia.net/counterstrike/flusha: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/flusha
+2025-12-11 02:31:34,128 - WARNING - ✗ 更新失败: flusha
+2025-12-11 02:31:34,129 - INFO - 正在处理 (15/211): JW
+2025-12-11 02:31:35,126 - ERROR - 请求失败 https://liquipedia.net/counterstrike/JW: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/JW
+2025-12-11 02:31:35,126 - WARNING - ✗ 更新失败: JW
+2025-12-11 02:31:35,126 - INFO - 正在处理 (16/211): Xyp9x
+2025-12-11 02:31:36,127 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Xyp9x: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Xyp9x
+2025-12-11 02:31:36,127 - WARNING - ✗ 更新失败: Xyp9x
+2025-12-11 02:31:36,127 - INFO - 正在处理 (17/211): dupreeh
+2025-12-11 02:31:48,805 - INFO - 开始CS2选手信息更新
+2025-12-11 02:31:48,805 - INFO - 从 players.csv 加载了 211 个选手姓名
+2025-12-11 02:31:48,805 - INFO - 开始更新 211 个选手的信息...
+2025-12-11 02:31:48,805 - INFO - 正在处理 (1/211): s1mple
+2025-12-11 02:31:49,643 - ERROR - 请求失败 https://liquipedia.net/counterstrike/s1mple: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/s1mple
+2025-12-11 02:31:49,643 - WARNING - ✗ 更新失败: s1mple
+2025-12-11 02:31:49,643 - INFO - 正在处理 (2/211): ZywOo
+2025-12-11 02:31:50,058 - ERROR - 请求失败 https://liquipedia.net/counterstrike/ZywOo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/ZywOo
+2025-12-11 02:31:50,058 - WARNING - ✗ 更新失败: ZywOo
+2025-12-11 02:31:50,058 - INFO - 正在处理 (3/211): NiKo
+2025-12-11 02:31:51,053 - ERROR - 请求失败 https://liquipedia.net/counterstrike/NiKo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/NiKo
+2025-12-11 02:31:51,054 - WARNING - ✗ 更新失败: NiKo
+2025-12-11 02:31:51,054 - INFO - 正在处理 (4/211): dev1ce
+2025-12-11 02:31:52,054 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dev1ce: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dev1ce
+2025-12-11 02:31:52,054 - WARNING - ✗ 更新失败: dev1ce
+2025-12-11 02:31:52,054 - INFO - 正在处理 (5/211): coldzera
+2025-12-11 02:31:53,054 - ERROR - 请求失败 https://liquipedia.net/counterstrike/coldzera: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/coldzera
+2025-12-11 02:31:53,054 - WARNING - ✗ 更新失败: coldzera
+2025-12-11 02:31:53,054 - INFO - 正在处理 (6/211): f0rest
+2025-12-11 02:31:54,076 - ERROR - 请求失败 https://liquipedia.net/counterstrike/f0rest: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/f0rest
+2025-12-11 02:31:54,076 - WARNING - ✗ 更新失败: f0rest
+2025-12-11 02:31:54,076 - INFO - 正在处理 (7/211): GeT_RiGhT
+2025-12-11 02:31:55,055 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GeT_RiGhT: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GeT_RiGhT
+2025-12-11 02:31:55,055 - WARNING - ✗ 更新失败: GeT_RiGhT
+2025-12-11 02:31:55,055 - INFO - 正在处理 (8/211): kennyS
+2025-12-11 02:31:56,055 - ERROR - 请求失败 https://liquipedia.net/counterstrike/kennyS: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/kennyS
+2025-12-11 02:31:56,055 - WARNING - ✗ 更新失败: kennyS
+2025-12-11 02:31:56,055 - INFO - 正在处理 (9/211): olofmeister
+2025-12-11 02:31:57,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/olofmeister: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/olofmeister
+2025-12-11 02:31:57,056 - WARNING - ✗ 更新失败: olofmeister
+2025-12-11 02:31:57,056 - INFO - 正在处理 (10/211): GuardiaN
+2025-12-11 02:31:58,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GuardiaN: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GuardiaN
+2025-12-11 02:31:58,056 - WARNING - ✗ 更新失败: GuardiaN
+2025-12-11 02:31:58,056 - INFO - 进度: 10/211 (4.7%)
+2025-12-11 02:31:58,056 - INFO - 正在处理 (11/211): Snax
+2025-12-11 02:31:59,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Snax: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Snax
+2025-12-11 02:31:59,056 - WARNING - ✗ 更新失败: Snax
+2025-12-11 02:31:59,056 - INFO - 正在处理 (12/211): shox
+2025-12-11 02:32:00,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/shox: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/shox
+2025-12-11 02:32:00,056 - WARNING - ✗ 更新失败: shox
+2025-12-11 02:32:00,056 - INFO - 正在处理 (13/211): KRIMZ
+2025-12-11 02:32:01,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/KRIMZ: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/KRIMZ
+2025-12-11 02:32:01,056 - WARNING - ✗ 更新失败: KRIMZ
+2025-12-11 02:32:01,056 - INFO - 正在处理 (14/211): flusha
+2025-12-11 02:32:02,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/flusha: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/flusha
+2025-12-11 02:32:02,056 - WARNING - ✗ 更新失败: flusha
+2025-12-11 02:32:02,056 - INFO - 正在处理 (15/211): JW
+2025-12-11 02:32:03,056 - ERROR - 请求失败 https://liquipedia.net/counterstrike/JW: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/JW
+2025-12-11 02:32:03,057 - WARNING - ✗ 更新失败: JW
+2025-12-11 02:32:03,057 - INFO - 正在处理 (16/211): Xyp9x
+2025-12-11 02:32:04,058 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Xyp9x: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Xyp9x
+2025-12-11 02:32:04,058 - WARNING - ✗ 更新失败: Xyp9x
+2025-12-11 02:32:04,058 - INFO - 正在处理 (17/211): dupreeh
+2025-12-11 02:32:05,057 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dupreeh: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dupreeh
+2025-12-11 02:32:05,057 - WARNING - ✗ 更新失败: dupreeh
+2025-12-11 02:32:05,057 - INFO - 正在处理 (18/211): gla1ve
+2025-12-11 02:32:06,057 - ERROR - 请求失败 https://liquipedia.net/counterstrike/gla1ve: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/gla1ve
+2025-12-11 02:32:06,057 - WARNING - ✗ 更新失败: gla1ve
+2025-12-11 02:32:06,057 - INFO - 正在处理 (19/211): magisk
+2025-12-11 03:50:24,455 - INFO - 开始CS2选手信息更新
+2025-12-11 03:50:24,456 - INFO - 从 players.csv 加载了 211 个选手姓名
+2025-12-11 03:50:24,456 - INFO - 开始更新 211 个选手的信息...
+2025-12-11 03:50:24,456 - INFO - 正在处理 (1/211): s1mple
+2025-12-11 03:50:25,309 - ERROR - 请求失败 https://liquipedia.net/counterstrike/s1mple: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/s1mple
+2025-12-11 03:50:25,309 - WARNING - ✗ 更新失败: s1mple
+2025-12-11 03:50:25,309 - INFO - 正在处理 (2/211): ZywOo
+2025-12-11 03:50:25,710 - ERROR - 请求失败 https://liquipedia.net/counterstrike/ZywOo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/ZywOo
+2025-12-11 03:50:25,710 - WARNING - ✗ 更新失败: ZywOo
+2025-12-11 03:50:25,710 - INFO - 正在处理 (3/211): NiKo
+2025-12-11 03:50:26,710 - ERROR - 请求失败 https://liquipedia.net/counterstrike/NiKo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/NiKo
+2025-12-11 03:50:26,710 - WARNING - ✗ 更新失败: NiKo
+2025-12-11 03:50:26,710 - INFO - 正在处理 (4/211): dev1ce
+2025-12-11 03:50:27,710 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dev1ce: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dev1ce
+2025-12-11 03:50:27,710 - WARNING - ✗ 更新失败: dev1ce
+2025-12-11 03:50:27,710 - INFO - 正在处理 (5/211): coldzera
+2025-12-11 03:55:52,189 - INFO - 开始CS2选手信息更新
+2025-12-11 03:55:52,190 - INFO - 从 players.csv 加载了 211 个选手姓名
+2025-12-11 03:55:52,190 - INFO - 开始更新 211 个选手的信息...
+2025-12-11 03:55:52,190 - INFO - 正在处理 (1/211): s1mple
+2025-12-11 03:55:53,024 - ERROR - 请求失败 https://liquipedia.net/counterstrike/s1mple: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/s1mple
+2025-12-11 03:55:53,024 - WARNING - ✗ 更新失败: s1mple
+2025-12-11 03:55:53,024 - INFO - 正在处理 (2/211): ZywOo
+2025-12-11 03:55:53,438 - ERROR - 请求失败 https://liquipedia.net/counterstrike/ZywOo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/ZywOo
+2025-12-11 03:55:53,438 - WARNING - ✗ 更新失败: ZywOo
+2025-12-11 03:55:53,438 - INFO - 正在处理 (3/211): NiKo
+2025-12-11 03:55:54,437 - ERROR - 请求失败 https://liquipedia.net/counterstrike/NiKo: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/NiKo
+2025-12-11 03:55:54,437 - WARNING - ✗ 更新失败: NiKo
+2025-12-11 03:55:54,437 - INFO - 正在处理 (4/211): dev1ce
+2025-12-11 03:55:55,438 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dev1ce: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dev1ce
+2025-12-11 03:55:55,438 - WARNING - ✗ 更新失败: dev1ce
+2025-12-11 03:55:55,438 - INFO - 正在处理 (5/211): coldzera
+2025-12-11 03:55:56,438 - ERROR - 请求失败 https://liquipedia.net/counterstrike/coldzera: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/coldzera
+2025-12-11 03:55:56,438 - WARNING - ✗ 更新失败: coldzera
+2025-12-11 03:55:56,438 - INFO - 正在处理 (6/211): f0rest
+2025-12-11 03:55:57,438 - ERROR - 请求失败 https://liquipedia.net/counterstrike/f0rest: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/f0rest
+2025-12-11 03:55:57,439 - WARNING - ✗ 更新失败: f0rest
+2025-12-11 03:55:57,439 - INFO - 正在处理 (7/211): GeT_RiGhT
+2025-12-11 03:55:58,439 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GeT_RiGhT: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GeT_RiGhT
+2025-12-11 03:55:58,439 - WARNING - ✗ 更新失败: GeT_RiGhT
+2025-12-11 03:55:58,439 - INFO - 正在处理 (8/211): kennyS
+2025-12-11 03:55:59,439 - ERROR - 请求失败 https://liquipedia.net/counterstrike/kennyS: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/kennyS
+2025-12-11 03:55:59,439 - WARNING - ✗ 更新失败: kennyS
+2025-12-11 03:55:59,439 - INFO - 正在处理 (9/211): olofmeister
+2025-12-11 03:56:00,439 - ERROR - 请求失败 https://liquipedia.net/counterstrike/olofmeister: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/olofmeister
+2025-12-11 03:56:00,439 - WARNING - ✗ 更新失败: olofmeister
+2025-12-11 03:56:00,439 - INFO - 正在处理 (10/211): GuardiaN
+2025-12-11 03:56:01,439 - ERROR - 请求失败 https://liquipedia.net/counterstrike/GuardiaN: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/GuardiaN
+2025-12-11 03:56:01,439 - WARNING - ✗ 更新失败: GuardiaN
+2025-12-11 03:56:01,439 - INFO - 进度: 10/211 (4.7%)
+2025-12-11 03:56:01,439 - INFO - 正在处理 (11/211): Snax
+2025-12-11 03:56:02,444 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Snax: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Snax
+2025-12-11 03:56:02,444 - WARNING - ✗ 更新失败: Snax
+2025-12-11 03:56:02,445 - INFO - 正在处理 (12/211): shox
+2025-12-11 03:56:03,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/shox: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/shox
+2025-12-11 03:56:03,440 - WARNING - ✗ 更新失败: shox
+2025-12-11 03:56:03,440 - INFO - 正在处理 (13/211): KRIMZ
+2025-12-11 03:56:04,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/KRIMZ: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/KRIMZ
+2025-12-11 03:56:04,440 - WARNING - ✗ 更新失败: KRIMZ
+2025-12-11 03:56:04,440 - INFO - 正在处理 (14/211): flusha
+2025-12-11 03:56:05,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/flusha: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/flusha
+2025-12-11 03:56:05,440 - WARNING - ✗ 更新失败: flusha
+2025-12-11 03:56:05,440 - INFO - 正在处理 (15/211): JW
+2025-12-11 03:56:06,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/JW: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/JW
+2025-12-11 03:56:06,440 - WARNING - ✗ 更新失败: JW
+2025-12-11 03:56:06,440 - INFO - 正在处理 (16/211): Xyp9x
+2025-12-11 03:56:07,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Xyp9x: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Xyp9x
+2025-12-11 03:56:07,440 - WARNING - ✗ 更新失败: Xyp9x
+2025-12-11 03:56:07,440 - INFO - 正在处理 (17/211): dupreeh
+2025-12-11 03:56:08,441 - ERROR - 请求失败 https://liquipedia.net/counterstrike/dupreeh: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/dupreeh
+2025-12-11 03:56:08,441 - WARNING - ✗ 更新失败: dupreeh
+2025-12-11 03:56:08,441 - INFO - 正在处理 (18/211): gla1ve
+2025-12-11 03:56:09,440 - ERROR - 请求失败 https://liquipedia.net/counterstrike/gla1ve: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/gla1ve
+2025-12-11 03:56:09,441 - WARNING - ✗ 更新失败: gla1ve
+2025-12-11 03:56:09,441 - INFO - 正在处理 (19/211): magisk
+2025-12-11 03:56:10,441 - ERROR - 请求失败 https://liquipedia.net/counterstrike/magisk: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/magisk
+2025-12-11 03:56:10,441 - WARNING - ✗ 更新失败: magisk
+2025-12-11 03:56:10,441 - INFO - 正在处理 (20/211): electronic
+2025-12-11 03:56:11,441 - ERROR - 请求失败 https://liquipedia.net/counterstrike/electronic: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/electronic
+2025-12-11 03:56:11,441 - WARNING - ✗ 更新失败: electronic
+2025-12-11 03:56:11,441 - INFO - 进度: 20/211 (9.5%)
+2025-12-11 03:56:11,442 - INFO - 正在处理 (21/211): Boombl4
+2025-12-11 03:56:12,442 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Boombl4: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Boombl4
+2025-12-11 03:56:12,442 - WARNING - ✗ 更新失败: Boombl4
+2025-12-11 03:56:12,442 - INFO - 正在处理 (22/211): Perfecto
+2025-12-11 03:56:13,442 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Perfecto: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Perfecto
+2025-12-11 03:56:13,442 - WARNING - ✗ 更新失败: Perfecto
+2025-12-11 03:56:13,442 - INFO - 正在处理 (23/211): b1t
+2025-12-11 03:56:14,442 - ERROR - 请求失败 https://liquipedia.net/counterstrike/b1t: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/b1t
+2025-12-11 03:56:14,442 - WARNING - ✗ 更新失败: b1t
+2025-12-11 03:56:14,442 - INFO - 正在处理 (24/211): m0NESY
+2025-12-11 03:56:15,442 - ERROR - 请求失败 https://liquipedia.net/counterstrike/m0NESY: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/m0NESY
+2025-12-11 03:56:15,442 - WARNING - ✗ 更新失败: m0NESY
+2025-12-11 03:56:15,442 - INFO - 正在处理 (25/211): donk
+2025-12-11 03:56:16,443 - ERROR - 请求失败 https://liquipedia.net/counterstrike/donk: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/donk
+2025-12-11 03:56:16,443 - WARNING - ✗ 更新失败: donk
+2025-12-11 03:56:16,443 - INFO - 正在处理 (26/211): Ax1Le
+2025-12-11 03:56:17,443 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Ax1Le: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Ax1Le
+2025-12-11 03:56:17,443 - WARNING - ✗ 更新失败: Ax1Le
+2025-12-11 03:56:17,443 - INFO - 正在处理 (27/211): sh1ro
+2025-12-11 03:56:18,447 - ERROR - 请求失败 https://liquipedia.net/counterstrike/sh1ro: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/sh1ro
+2025-12-11 03:56:18,447 - WARNING - ✗ 更新失败: sh1ro
+2025-12-11 03:56:18,447 - INFO - 正在处理 (28/211): nafany
+2025-12-11 03:56:19,444 - ERROR - 请求失败 https://liquipedia.net/counterstrike/nafany: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/nafany
+2025-12-11 03:56:19,444 - WARNING - ✗ 更新失败: nafany
+2025-12-11 03:56:19,444 - INFO - 正在处理 (29/211): Stewie2K
+2025-12-11 03:56:20,444 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Stewie2K: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Stewie2K
+2025-12-11 03:56:20,444 - WARNING - ✗ 更新失败: Stewie2K
+2025-12-11 03:56:20,444 - INFO - 正在处理 (30/211): twistzz
+2025-12-11 03:56:21,453 - ERROR - 请求失败 https://liquipedia.net/counterstrike/twistzz: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/twistzz
+2025-12-11 03:56:21,453 - WARNING - ✗ 更新失败: twistzz
+2025-12-11 03:56:21,453 - INFO - 进度: 30/211 (14.2%)
+2025-12-11 03:56:21,453 - INFO - 正在处理 (31/211): NAF
+2025-12-11 03:56:22,444 - ERROR - 请求失败 https://liquipedia.net/counterstrike/NAF: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/NAF
+2025-12-11 03:56:22,445 - WARNING - ✗ 更新失败: NAF
+2025-12-11 03:56:22,445 - INFO - 正在处理 (32/211): nitr0
+2025-12-11 03:56:23,444 - ERROR - 请求失败 https://liquipedia.net/counterstrike/nitr0: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/nitr0
+2025-12-11 03:56:23,445 - WARNING - ✗ 更新失败: nitr0
+2025-12-11 03:56:23,445 - INFO - 正在处理 (33/211): tarik
+2025-12-11 03:56:24,450 - ERROR - 请求失败 https://liquipedia.net/counterstrike/tarik: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/tarik
+2025-12-11 03:56:24,451 - WARNING - ✗ 更新失败: tarik
+2025-12-11 03:56:24,451 - INFO - 正在处理 (34/211): autimatic
+2025-12-11 03:56:25,445 - ERROR - 请求失败 https://liquipedia.net/counterstrike/autimatic: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/autimatic
+2025-12-11 03:56:25,446 - WARNING - ✗ 更新失败: autimatic
+2025-12-11 03:56:25,446 - INFO - 正在处理 (35/211): Skadoodle
+2025-12-11 03:56:26,446 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Skadoodle: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Skadoodle
+2025-12-11 03:56:26,446 - WARNING - ✗ 更新失败: Skadoodle
+2025-12-11 03:56:26,446 - INFO - 正在处理 (36/211): Hiko
+2025-12-11 03:56:27,446 - ERROR - 请求失败 https://liquipedia.net/counterstrike/Hiko: 403 Client Error: Forbidden for url: https://liquipedia.net/counterstrike/Hiko
+2025-12-11 03:56:27,447 - WARNING - ✗ 更新失败: Hiko
+2025-12-11 03:56:27,447 - INFO - 正在处理 (37/211): daps
+2025-12-11 04:02:39,819 - INFO - 从 players.csv 加载了 211 条旧数据存档
+2025-12-11 04:02:39,819 - INFO - 开始更新 211 个选手的信息...
+2025-12-11 04:02:39,819 - INFO - 正在处理 (1/211): s1mple
+2025-12-11 04:02:41,077 - INFO - 从本地数据库获取角色: s1mple - AWPer
+2025-12-11 04:02:41,078 - INFO - ✓ 更新成功: s1mple -> BC.Game Esports
+2025-12-11 04:02:41,078 - INFO - 正在处理 (2/211): ZywOo
+2025-12-11 04:02:42,176 - INFO - 从本地数据库获取角色: ZywOo - AWPer
+2025-12-11 04:02:42,176 - INFO - ✓ 更新成功: ZywOo -> Team Vitality
+2025-12-11 04:02:42,176 - INFO - 正在处理 (3/211): NiKo
+2025-12-11 04:02:44,222 - INFO - ✓ 更新成功: NiKo -> Team Falcons
+2025-12-11 04:02:44,223 - INFO - 正在处理 (4/211): dev1ce
+2025-12-11 04:02:46,456 - INFO - ✓ 更新成功: dev1ce -> Astralis
+2025-12-11 04:02:46,456 - INFO - 正在处理 (5/211): coldzera
+2025-12-11 04:02:48,421 - INFO - 从本地数据库获取角色: coldzera - Rifler
+2025-12-11 04:02:48,421 - INFO - ✓ 更新成功: coldzera -> Free Agent
+2025-12-11 04:02:48,421 - INFO - 正在处理 (6/211): f0rest
+2025-12-11 04:02:50,847 - INFO - ✓ 更新成功: f0rest -> Ninjas in Pyjamas
+2025-12-11 04:02:50,847 - INFO - 正在处理 (7/211): GeT_RiGhT
+2025-12-11 04:02:52,176 - INFO - ✓ 更新成功: GeT_RiGhT -> Free Agent
+2025-12-11 04:02:52,177 - INFO - 正在处理 (8/211): kennyS
+2025-12-11 04:02:54,421 - INFO - ✓ 更新成功: kennyS -> Free Agent
+2025-12-11 04:02:54,421 - INFO - 正在处理 (9/211): olofmeister
+2025-12-11 04:02:56,427 - INFO - 从本地数据库获取角色: olofmeister - Rifler
+2025-12-11 04:02:56,428 - INFO - ✓ 更新成功: olofmeister -> FaZe Clan
+2025-12-11 04:02:56,428 - INFO - 正在处理 (10/211): GuardiaN
+2025-12-11 04:02:58,175 - INFO - ✓ 更新成功: GuardiaN -> Free Agent
+2025-12-11 04:02:58,175 - INFO - 进度: 10/211 (4.7%)
+2025-12-11 04:02:58,175 - INFO - 正在处理 (11/211): Snax
+2025-12-11 04:03:00,164 - INFO - 从本地数据库获取角色: Snax - Rifler
+2025-12-11 04:03:00,165 - INFO - ✓ 更新成功: Snax -> Free Agent
+2025-12-11 04:03:00,165 - INFO - 正在处理 (12/211): shox
+2025-12-11 04:03:02,417 - INFO - 从本地数据库获取角色: shox - Rifler
+2025-12-11 04:03:02,417 - INFO - ✓ 更新成功: shox -> Free Agent
+2025-12-11 04:03:02,417 - INFO - 正在处理 (13/211): KRIMZ
+2025-12-11 04:03:04,158 - INFO - ✓ 更新成功: KRIMZ -> Fnatic
+2025-12-11 04:03:04,158 - INFO - 正在处理 (14/211): flusha
+2025-12-11 04:03:06,406 - INFO - ✓ 更新成功: flusha -> Free Agent
+2025-12-11 04:03:06,406 - INFO - 正在处理 (15/211): JW
+2025-12-11 04:03:08,167 - INFO - ✓ 更新成功: JW -> EYEBALLERS
+2025-12-11 04:03:08,167 - INFO - 正在处理 (16/211): Xyp9x
+2025-12-11 04:03:10,181 - INFO - ✓ 更新成功: Xyp9x -> MOUZ
+2025-12-11 04:03:10,181 - INFO - 正在处理 (17/211): dupreeh
+2025-12-11 04:03:12,430 - INFO - ✓ 更新成功: dupreeh -> Free Agent
+2025-12-11 04:03:12,430 - INFO - 正在处理 (18/211): gla1ve
+2025-12-11 04:03:14,407 - INFO - ✓ 更新成功: gla1ve -> ENCE
+2025-12-11 04:03:14,407 - INFO - 正在处理 (19/211): magisk
+2025-12-11 04:03:16,418 - INFO - ✓ 更新成功: magisk -> Astralis
+2025-12-11 04:03:16,418 - INFO - 正在处理 (20/211): electronic
+2025-12-11 04:03:18,410 - INFO - ✓ 更新成功: electronic -> BC.Game Esports
+2025-12-11 04:03:18,410 - INFO - 进度: 20/211 (9.5%)
+2025-12-11 04:03:18,411 - INFO - 正在处理 (21/211): Boombl4
+2025-12-11 04:03:20,166 - INFO - 从本地数据库获取角色: Boombl4 - Rifler
+2025-12-11 04:03:20,166 - INFO - ✓ 更新成功: Boombl4 -> BetBoom Team
+2025-12-11 04:03:20,166 - INFO - 正在处理 (22/211): Perfecto
+2025-12-11 04:03:22,150 - INFO - 从本地数据库获取角色: Perfecto - Rifler
+2025-12-11 04:03:22,150 - INFO - ✓ 更新成功: Perfecto -> Virtus.pro
+2025-12-11 04:03:22,150 - INFO - 正在处理 (23/211): b1t
+2025-12-11 04:03:24,418 - INFO - ✓ 更新成功: b1t -> Natus Vincere
+2025-12-11 04:03:24,419 - INFO - 正在处理 (24/211): m0NESY
+2025-12-11 04:03:26,426 - INFO - ✓ 更新成功: m0NESY -> Team Falcons
+2025-12-11 04:03:26,426 - INFO - 正在处理 (25/211): donk
+2025-12-11 04:03:28,420 - INFO - ✓ 更新成功: donk -> Team Spirit
+2025-12-11 04:03:28,420 - INFO - 正在处理 (26/211): Ax1Le
+2025-12-11 04:03:30,155 - INFO - ✓ 更新成功: Ax1Le -> BetBoom Team
+2025-12-11 04:03:30,155 - INFO - 正在处理 (27/211): sh1ro
+2025-12-11 04:03:32,411 - INFO - ✓ 更新成功: sh1ro -> Team Spirit
+2025-12-11 04:03:32,412 - INFO - 正在处理 (28/211): nafany
+2025-12-11 04:03:34,411 - INFO - 从本地数据库获取角色: nafany - Rifler
+2025-12-11 04:03:34,411 - INFO - ✓ 更新成功: nafany -> AMKAL ESPORTS
+2025-12-11 04:03:34,411 - INFO - 正在处理 (29/211): Stewie2K
+2025-12-11 04:03:36,165 - INFO - 从本地数据库获取角色: Stewie2K - Rifler
+2025-12-11 04:03:36,166 - INFO - ✓ 更新成功: Stewie2K -> Free Agent
+2025-12-11 04:03:36,166 - INFO - 正在处理 (30/211): twistzz
+2025-12-11 04:03:38,428 - INFO - ✓ 更新成功: twistzz -> FaZe Clan
+2025-12-11 04:03:38,428 - INFO - 进度: 30/211 (14.2%)
+2025-12-11 04:03:38,429 - INFO - 正在处理 (31/211): NAF
+2025-12-11 04:03:40,165 - INFO - ✓ 更新成功: NAF -> Team Liquid
+2025-12-11 04:03:40,165 - INFO - 正在处理 (32/211): nitr0
+2025-12-11 04:03:42,414 - INFO - 从本地数据库获取角色: nitr0 - Rifler
+2025-12-11 04:03:42,414 - INFO - ✓ 更新成功: nitr0 -> NRG
+2025-12-11 04:03:42,414 - INFO - 正在处理 (33/211): tarik
+2025-12-11 04:03:44,405 - INFO - ✓ 更新成功: tarik -> Free Agent
+2025-12-11 04:03:44,406 - INFO - 正在处理 (34/211): autimatic
+2025-12-11 04:03:46,397 - INFO - 从本地数据库获取角色: autimatic - Rifler
+2025-12-11 04:03:46,397 - INFO - ✓ 更新成功: autimatic -> Free Agent
+2025-12-11 04:03:46,397 - INFO - 正在处理 (35/211): Skadoodle
+2025-12-11 04:03:48,144 - INFO - ✓ 更新成功: Skadoodle -> Free Agent
+2025-12-11 04:03:48,145 - INFO - 正在处理 (36/211): Hiko
+2025-12-11 04:03:50,147 - INFO - ✓ 更新成功: Hiko -> Free Agent
+2025-12-11 04:03:50,147 - INFO - 正在处理 (37/211): daps
+2025-12-11 04:03:52,423 - INFO - ✓ 更新成功: daps -> NRG
+2025-12-11 04:03:52,423 - INFO - 正在处理 (38/211): stanislaw
+2025-12-11 04:03:54,405 - INFO - ✓ 更新成功: stanislaw -> Wildcard
+2025-12-11 04:03:54,405 - INFO - 正在处理 (39/211): Brehze
+2025-12-11 04:03:56,159 - INFO - ✓ 更新成功: Brehze -> Free Agent
+2025-12-11 04:03:56,160 - INFO - 正在处理 (40/211): Ethan
+2025-12-11 04:03:58,150 - INFO - ✓ 更新成功: Ethan -> Free Agent
+2025-12-11 04:03:58,150 - INFO - 进度: 40/211 (19.0%)
+2025-12-11 04:03:58,150 - INFO - 正在处理 (41/211): dycha
+2025-12-11 04:04:00,413 - INFO - ✓ 更新成功: dycha -> Betclic Apogee Esports
+2025-12-11 04:04:00,413 - INFO - 正在处理 (42/211): hades
+2025-12-11 04:04:02,417 - INFO - ✓ 更新成功: hades -> Inner Circle Esports
+2025-12-11 04:04:02,417 - INFO - 正在处理 (43/211): mantuu
+2025-12-11 04:04:04,419 - INFO - ✓ 更新成功: mantuu -> Free Agent
+2025-12-11 04:04:04,420 - INFO - 正在处理 (44/211): ropz
+2025-12-11 04:04:06,438 - INFO - ✓ 更新成功: ropz -> Team Vitality
+2025-12-11 04:04:06,438 - INFO - 正在处理 (45/211): broky
+2025-12-11 04:04:08,412 - INFO - ✓ 更新成功: broky -> FaZe Clan
+2025-12-11 04:04:08,412 - INFO - 正在处理 (46/211): karrigan
+2025-12-11 04:04:10,449 - INFO - 从本地数据库获取角色: karrigan - Rifler
+2025-12-11 04:04:10,450 - INFO - ✓ 更新成功: karrigan -> FaZe Clan
+2025-12-11 04:04:10,450 - INFO - 正在处理 (47/211): rain
+2025-12-11 04:04:12,434 - INFO - 从本地数据库获取角色: rain - Rifler
+2025-12-11 04:04:12,434 - INFO - ✓ 更新成功: rain -> 100 Thieves
+2025-12-11 04:04:12,434 - INFO - 正在处理 (48/211): tabseN
+2025-12-11 04:04:14,412 - INFO - 从本地数据库获取角色: tabseN - Rifler
+2025-12-11 04:04:14,412 - INFO - ✓ 更新成功: tabseN -> BIG
+2025-12-11 04:04:14,412 - INFO - 正在处理 (49/211): syrsoN
+2025-12-11 04:04:16,414 - INFO - ✓ 更新成功: syrsoN -> Free Agent
+2025-12-11 04:04:16,414 - INFO - 正在处理 (50/211): gade
+2025-12-11 04:04:18,408 - INFO - ✓ 更新成功: gade -> Free Agent
+2025-12-11 04:04:18,408 - INFO - 进度: 50/211 (23.7%)
+2025-12-11 04:04:18,408 - INFO - 正在处理 (51/211): stavn
+2025-12-11 04:04:20,412 - INFO - 从本地数据库获取角色: stavn - Rifler
+2025-12-11 04:04:20,412 - INFO - ✓ 更新成功: stavn -> Astralis
+2025-12-11 04:04:20,412 - INFO - 正在处理 (52/211): cadiaN
+2025-12-11 04:04:22,437 - INFO - 从本地数据库获取角色: cadiaN - Rifler
+2025-12-11 04:04:22,437 - INFO - ✓ 更新成功: cadiaN -> OG
+2025-12-11 04:04:22,437 - INFO - 正在处理 (53/211): TeSeS
+2025-12-11 04:04:24,158 - INFO - ✓ 更新成功: TeSeS -> Team Falcons
+2025-12-11 04:04:24,158 - INFO - 正在处理 (54/211): sjuush
+2025-12-11 04:04:26,417 - INFO - ✓ 更新成功: sjuush -> Ninjas in Pyjamas
+2025-12-11 04:04:26,417 - INFO - 正在处理 (55/211): refrezh
+2025-12-11 04:04:28,409 - INFO - ✓ 更新成功: refrezh -> Free Agent
+2025-12-11 04:04:28,409 - INFO - 正在处理 (56/211): blameF
+2025-12-11 04:04:30,432 - INFO - 从本地数据库获取角色: blameF - Rifler
+2025-12-11 04:04:30,432 - INFO - ✓ 更新成功: blameF -> Fnatic
+2025-12-11 04:04:30,432 - INFO - 正在处理 (57/211): k0nfig
+2025-12-11 04:04:32,425 - INFO - 从本地数据库获取角色: k0nfig - Rifler
+2025-12-11 04:04:32,425 - INFO - ✓ 更新成功: k0nfig -> Free Agent
+2025-12-11 04:04:32,425 - INFO - 正在处理 (58/211): valde
+2025-12-11 04:04:34,413 - INFO - 从本地数据库获取角色: valde - Rifler
+2025-12-11 04:04:34,413 - INFO - ✓ 更新成功: valde -> Tricked Esport
+2025-12-11 04:04:34,413 - INFO - 正在处理 (59/211): acoR
+2025-12-11 04:04:36,412 - INFO - ✓ 更新成功: acoR -> ECSTATIC
+2025-12-11 04:04:36,412 - INFO - 正在处理 (60/211): jabbi
+2025-12-11 04:04:38,412 - INFO - ✓ 更新成功: jabbi -> Astralis
+2025-12-11 04:04:38,412 - INFO - 进度: 60/211 (28.4%)
+2025-12-11 04:04:38,412 - INFO - 正在处理 (61/211): nicoodoz
+2025-12-11 04:04:40,421 - INFO - ✓ 更新成功: nicoodoz -> OG
+2025-12-11 04:04:40,421 - INFO - 正在处理 (62/211): Spinx
+2025-12-11 04:04:42,164 - INFO - ✓ 更新成功: Spinx -> MOUZ
+2025-12-11 04:04:42,164 - INFO - 正在处理 (63/211): flamie
+2025-12-11 04:04:44,423 - INFO - ✓ 更新成功: flamie -> Flame Sharks
+2025-12-11 04:04:44,423 - INFO - 正在处理 (64/211): sdy
+2025-12-11 04:04:46,423 - INFO - 从本地数据库获取角色: sdy - Rifler
+2025-12-11 04:04:46,423 - INFO - ✓ 更新成功: sdy -> ENCE
+2025-12-11 04:04:46,423 - INFO - 正在处理 (65/211): degster
+2025-12-11 04:04:48,411 - INFO - ✓ 更新成功: degster -> Team Falcons
+2025-12-11 04:04:48,411 - INFO - 正在处理 (66/211): patsi
+2025-12-11 04:04:50,424 - INFO - ✓ 更新成功: patsi -> Sangal Esports
+2025-12-11 04:04:50,424 - INFO - 正在处理 (67/211): r1nkle
+2025-12-11 04:04:52,417 - INFO - ✓ 更新成功: r1nkle -> Ninjas in Pyjamas
+2025-12-11 04:04:52,417 - INFO - 正在处理 (68/211): headtr1ck
+2025-12-11 04:04:54,413 - INFO - 从本地数据库获取角色: headtr1ck - AWPer
+2025-12-11 04:04:54,413 - INFO - ✓ 更新成功: headtr1ck -> B8
+2025-12-11 04:04:54,413 - INFO - 正在处理 (69/211): Mir
+2025-12-11 04:04:56,151 - INFO - ✓ 更新成功: Mir -> Free Agent
+2025-12-11 04:04:56,152 - INFO - 正在处理 (70/211): Jame
+2025-12-11 04:04:58,166 - INFO - 从本地数据库获取角色: Jame - AWPer
+2025-12-11 04:04:58,166 - INFO - ✓ 更新成功: Jame -> PARIVISION
+2025-12-11 04:04:58,166 - INFO - 进度: 70/211 (33.2%)
+2025-12-11 04:04:58,166 - INFO - 正在处理 (71/211): FL1T
+2025-12-11 04:05:00,157 - INFO - ✓ 更新成功: FL1T -> Virtus.pro
+2025-12-11 04:05:00,157 - INFO - 正在处理 (72/211): Qikert
+2025-12-11 04:05:02,162 - INFO - 从本地数据库获取角色: Qikert - Rifler
+2025-12-11 04:05:02,162 - INFO - ✓ 更新成功: Qikert -> Free Agent
+2025-12-11 04:05:02,162 - INFO - 正在处理 (73/211): Buster
+2025-12-11 04:05:04,156 - INFO - 从本地数据库获取角色: Buster - Rifler
+2025-12-11 04:05:04,157 - INFO - ✓ 更新成功: Buster -> ALLINNERS
+2025-12-11 04:05:04,157 - INFO - 正在处理 (74/211): WorldEdit
+2025-12-11 04:05:06,160 - INFO - 从本地数据库获取角色: WorldEdit - AWPer
+2025-12-11 04:05:06,160 - INFO - ✓ 更新成功: WorldEdit -> HAPPY PEOPLE
+2025-12-11 04:05:06,161 - INFO - 正在处理 (75/211): Edward
+2025-12-11 04:05:08,175 - INFO - ✓ 更新成功: Edward -> ESC Gaming
+2025-12-11 04:05:08,175 - INFO - 正在处理 (76/211): TaZ
+2025-12-11 04:05:10,187 - INFO - ✓ 更新成功: TaZ -> Free Agent
+2025-12-11 04:05:10,187 - INFO - 正在处理 (77/211): pasha
+2025-12-11 04:05:12,442 - INFO - 从本地数据库获取角色: pasha - Rifler
+2025-12-11 04:05:12,442 - INFO - ✓ 更新成功: pasha -> Free Agent
+2025-12-11 04:05:12,442 - INFO - 正在处理 (78/211): byali
+2025-12-11 04:05:14,412 - INFO - 从本地数据库获取角色: byali - Rifler
+2025-12-11 04:05:14,412 - INFO - ✓ 更新成功: byali -> Free Agent
+2025-12-11 04:05:14,412 - INFO - 正在处理 (79/211): FalleN
+2025-12-11 04:05:16,202 - INFO - 从本地数据库获取角色: FalleN - AWPer
+2025-12-11 04:05:16,202 - INFO - ✓ 更新成功: FalleN -> FURIA
+2025-12-11 04:05:16,202 - INFO - 正在处理 (80/211): fer
+2025-12-11 04:05:18,426 - INFO - ✓ 更新成功: fer -> Free Agent
+2025-12-11 04:05:18,426 - INFO - 进度: 80/211 (37.9%)
+2025-12-11 04:05:18,426 - INFO - 正在处理 (81/211): TACO
+2025-12-11 04:05:20,171 - INFO - 从本地数据库获取角色: TACO - Rifler
+2025-12-11 04:05:20,171 - INFO - ✓ 更新成功: TACO -> Free Agent
+2025-12-11 04:05:20,171 - INFO - 正在处理 (82/211): fnx
+2025-12-11 04:05:22,429 - INFO - ✓ 更新成功: fnx -> Free Agent
+2025-12-11 04:05:22,429 - INFO - 正在处理 (83/211): LUCAS1
+2025-12-11 04:05:24,160 - INFO - 从本地数据库获取角色: LUCAS1 - Rifler
+2025-12-11 04:05:24,161 - INFO - ✓ 更新成功: LUCAS1 -> Free Agent
+2025-12-11 04:05:24,161 - INFO - 正在处理 (84/211): HEN1
+2025-12-11 04:05:26,172 - INFO - ✓ 更新成功: HEN1 -> RED Canids
+2025-12-11 04:05:26,172 - INFO - 正在处理 (85/211): kscerato
+2025-12-11 04:05:28,993 - INFO - ✓ 更新成功: kscerato -> FURIA
+2025-12-11 04:05:28,993 - INFO - 正在处理 (86/211): yuurih
+2025-12-11 04:05:30,430 - INFO - ✓ 更新成功: yuurih -> FURIA
+2025-12-11 04:05:30,430 - INFO - 正在处理 (87/211): arT
+2025-12-11 04:05:32,434 - INFO - 从本地数据库获取角色: arT - Rifler
+2025-12-11 04:05:32,434 - INFO - ✓ 更新成功: arT -> Fluxo
+2025-12-11 04:05:32,434 - INFO - 正在处理 (88/211): VINI
+2025-12-11 04:05:34,170 - INFO - 从本地数据库获取角色: VINI - Rifler
+2025-12-11 04:05:34,170 - INFO - ✓ 更新成功: VINI -> Imperial Esports
+2025-12-11 04:05:34,170 - INFO - 正在处理 (89/211): saffee
+2025-12-11 04:05:36,429 - INFO - ✓ 更新成功: saffee -> MIBR
+2025-12-11 04:05:36,429 - INFO - 正在处理 (90/211): drop
+2025-12-11 04:05:38,420 - INFO - 从本地数据库获取角色: drop - Rifler
+2025-12-11 04:05:38,420 - INFO - ✓ 更新成功: drop -> RED Canids
+2025-12-11 04:05:38,421 - INFO - 进度: 90/211 (42.7%)
+2025-12-11 04:05:38,421 - INFO - 正在处理 (91/211): chelo
+2025-12-11 04:05:40,415 - INFO - ✓ 更新成功: chelo -> Imperial Esports
+2025-12-11 04:05:40,415 - INFO - 正在处理 (92/211): biguzera
+2025-12-11 04:05:42,429 - INFO - 从本地数据库获取角色: biguzera - Rifler
+2025-12-11 04:05:42,430 - INFO - ✓ 更新成功: biguzera -> paiN Gaming
+2025-12-11 04:05:42,430 - INFO - 正在处理 (93/211): felps
+2025-12-11 04:05:44,420 - INFO - ✓ 更新成功: felps -> Gaimin Gladiators
+2025-12-11 04:05:44,421 - INFO - 正在处理 (94/211): zews
+2025-12-11 04:05:46,448 - INFO - ✓ 更新成功: zews -> Free Agent
+2025-12-11 04:05:46,448 - INFO - 正在处理 (95/211): Boltz
+2025-12-11 04:05:48,178 - INFO - ✓ 更新成功: Boltz -> Free Agent
+2025-12-11 04:05:48,179 - INFO - 正在处理 (96/211): MalbsMd
+2025-12-11 04:05:50,184 - INFO - ✓ 更新成功: MalbsMd -> G2 Esports
+2025-12-11 04:05:50,185 - INFO - 正在处理 (97/211): chrisJ
+2025-12-11 04:05:52,434 - INFO - 从本地数据库获取角色: chrisJ - AWPer
+2025-12-11 04:05:52,434 - INFO - ✓ 更新成功: chrisJ -> Free Agent
+2025-12-11 04:05:52,434 - INFO - 正在处理 (98/211): oskar
+2025-12-11 04:05:54,442 - INFO - ✓ 更新成功: oskar -> Free Agent
+2025-12-11 04:05:54,442 - INFO - 正在处理 (99/211): STYKO
+2025-12-11 04:05:56,225 - INFO - 从本地数据库获取角色: STYKO - Rifler
+2025-12-11 04:05:56,225 - INFO - ✓ 更新成功: STYKO -> Free Agent
+2025-12-11 04:05:56,225 - INFO - 正在处理 (100/211): ISSAA
+2025-12-11 04:05:58,239 - INFO - 从本地数据库获取角色: ISSAA - Rifler
+2025-12-11 04:05:58,239 - INFO - ✓ 更新成功: ISSAA -> Free Agent
+2025-12-11 04:05:58,239 - INFO - 进度: 100/211 (47.4%)
+2025-12-11 04:05:58,239 - INFO - 正在处理 (101/211): woxic
+2025-12-11 04:06:00,479 - INFO - ✓ 更新成功: woxic -> Aurora Gaming
+2025-12-11 04:06:00,480 - INFO - 正在处理 (102/211): XANTARES
+2025-12-11 04:06:02,175 - INFO - ✓ 更新成功: XANTARES -> Aurora Gaming
+2025-12-11 04:06:02,175 - INFO - 正在处理 (103/211): Calyx
+2025-12-11 04:06:04,168 - INFO - ✓ 更新成功: Calyx -> Eternal Fire
+2025-12-11 04:06:04,168 - INFO - 正在处理 (104/211): MAJ3R
+2025-12-11 04:06:06,181 - INFO - 从本地数据库获取角色: MAJ3R - Rifler
+2025-12-11 04:06:06,181 - INFO - ✓ 更新成功: MAJ3R -> Aurora Gaming
+2025-12-11 04:06:06,182 - INFO - 正在处理 (105/211): hampus
+2025-12-11 04:06:08,448 - INFO - 从本地数据库获取角色: hampus - Rifler
+2025-12-11 04:06:08,448 - INFO - ✓ 更新成功: hampus -> 500
+2025-12-11 04:06:08,448 - INFO - 正在处理 (106/211): nawwk
+2025-12-11 04:06:10,435 - INFO - ✓ 更新成功: nawwk -> Metizport
+2025-12-11 04:06:10,435 - INFO - 正在处理 (107/211): Golden
+2025-12-11 04:06:12,180 - INFO - ✓ 更新成功: Golden -> SAW
+2025-12-11 04:06:12,180 - INFO - 正在处理 (108/211): REZ
+2025-12-11 04:06:14,190 - INFO - 从本地数据库获取角色: REZ - Rifler
+2025-12-11 04:06:14,191 - INFO - ✓ 更新成功: REZ -> GamerLegion
+2025-12-11 04:06:14,191 - INFO - 正在处理 (109/211): Brollan
+2025-12-11 04:06:16,174 - INFO - 从本地数据库获取角色: Brollan - Rifler
+2025-12-11 04:06:16,174 - INFO - ✓ 更新成功: Brollan -> MOUZ
+2025-12-11 04:06:16,174 - INFO - 正在处理 (110/211): es3tag
+2025-12-11 04:06:18,422 - INFO - 从本地数据库获取角色: es3tag - Rifler
+2025-12-11 04:06:18,423 - INFO - ✓ 更新成功: es3tag -> Free Agent
+2025-12-11 04:06:18,423 - INFO - 进度: 110/211 (52.1%)
+2025-12-11 04:06:18,423 - INFO - 正在处理 (111/211): ottoNd
+2025-12-11 04:06:20,425 - INFO - ✓ 更新成功: ottoNd -> Free Agent
+2025-12-11 04:06:20,425 - INFO - 正在处理 (112/211): allu
+2025-12-11 04:06:22,425 - INFO - ✓ 更新成功: allu -> Free Agent
+2025-12-11 04:06:22,425 - INFO - 正在处理 (113/211): sergej
+2025-12-11 04:06:24,417 - INFO - ✓ 更新成功: sergej -> Free Agent
+2025-12-11 04:06:24,417 - INFO - 正在处理 (114/211): Aleksib
+2025-12-11 04:06:26,189 - INFO - ✓ 更新成功: Aleksib -> Natus Vincere
+2025-12-11 04:06:26,189 - INFO - 正在处理 (115/211): suNny
+2025-12-11 04:06:28,431 - INFO - ✓ 更新成功: suNny -> Free Agent
+2025-12-11 04:06:28,431 - INFO - 正在处理 (116/211): jks
+2025-12-11 04:06:30,431 - INFO - ✓ 更新成功: jks -> FlyQuest
+2025-12-11 04:06:30,431 - INFO - 正在处理 (117/211): AZR
+2025-12-11 04:06:32,172 - INFO - ✓ 更新成功: AZR -> FlyQuest
+2025-12-11 04:06:32,172 - INFO - 正在处理 (118/211): Gratisfaction
+2025-12-11 04:06:34,171 - INFO - ✓ 更新成功: Gratisfaction -> Alter Ego
+2025-12-11 04:06:34,171 - INFO - 正在处理 (119/211): Liazz
+2025-12-11 04:06:36,178 - INFO - ✓ 更新成功: Liazz -> THUNDERdOWNUNDER
+2025-12-11 04:06:36,178 - INFO - 正在处理 (120/211): INS
+2025-12-11 04:06:38,173 - INFO - 从本地数据库获取角色: INS - Rifler
+2025-12-11 04:06:38,173 - INFO - ✓ 更新成功: INS -> FlyQuest
+2025-12-11 04:06:38,173 - INFO - 进度: 120/211 (56.9%)
+2025-12-11 04:06:38,173 - INFO - 正在处理 (121/211): BnTeT
+2025-12-11 04:06:40,179 - INFO - 从本地数据库获取角色: BnTeT - Rifler
+2025-12-11 04:06:40,179 - INFO - ✓ 更新成功: BnTeT -> Alter Ego
+2025-12-11 04:06:40,179 - INFO - 正在处理 (122/211): LETN1
+2025-12-11 04:06:42,188 - INFO - ✓ 更新成功: LETN1 -> G2 Ares
+2025-12-11 04:06:42,188 - INFO - 正在处理 (123/211): RUSH
+2025-12-11 04:06:44,309 - INFO - 从本地数据库获取角色: RUSH - Rifler
+2025-12-11 04:06:44,309 - INFO - ✓ 更新成功: RUSH -> Free Agent
+2025-12-11 04:06:44,310 - INFO - 正在处理 (124/211): Ex6TenZ
+2025-12-11 04:06:46,180 - INFO - 从本地数据库获取角色: Ex6TenZ - Coach
+2025-12-11 04:06:46,181 - INFO - ✓ 更新成功: Ex6TenZ -> Free Agent
+2025-12-11 04:06:46,181 - INFO - 正在处理 (125/211): SmithZz
+2025-12-11 04:06:48,186 - INFO - 从本地数据库获取角色: SmithZz - Coach
+2025-12-11 04:06:48,186 - INFO - ✓ 更新成功: SmithZz -> Free Agent
+2025-12-11 04:06:48,186 - INFO - 正在处理 (126/211): RpK
+2025-12-11 04:06:50,181 - INFO - ✓ 更新成功: RpK -> Free Agent
+2025-12-11 04:06:50,181 - INFO - 正在处理 (127/211): bodyy
+2025-12-11 04:06:52,430 - INFO - ✓ 更新成功: bodyy -> 3DMAX
+2025-12-11 04:06:52,430 - INFO - 正在处理 (128/211): NBK
+2025-12-11 04:06:54,209 - INFO - 从本地数据库获取角色: NBK - Rifler
+2025-12-11 04:06:54,209 - INFO - ✓ 更新成功: NBK -> GenOne
+2025-12-11 04:06:54,209 - INFO - 正在处理 (129/211): apEX
+2025-12-11 04:06:56,456 - INFO - ✓ 更新成功: apEX -> Team Vitality
+2025-12-11 04:06:56,456 - INFO - 正在处理 (130/211): Happy
+2025-12-11 04:06:58,183 - INFO - ✓ 更新成功: Happy -> Free Agent
+2025-12-11 04:06:58,183 - INFO - 进度: 130/211 (61.6%)
+2025-12-11 04:06:58,183 - INFO - 正在处理 (131/211): KioShiMa
+2025-12-11 04:07:00,178 - INFO - ✓ 更新成功: KioShiMa -> Free Agent
+2025-12-11 04:07:00,178 - INFO - 正在处理 (132/211): Zonic
+2025-12-11 04:07:02,198 - INFO - ✓ 更新成功: Zonic -> Team Falcons
+2025-12-11 04:07:02,199 - INFO - 正在处理 (133/211): dennis
+2025-12-11 04:07:04,426 - INFO - 从本地数据库获取角色: dennis - Rifler
+2025-12-11 04:07:04,426 - INFO - ✓ 更新成功: dennis -> Free Agent
+2025-12-11 04:07:04,426 - INFO - 正在处理 (134/211): twist
+2025-12-11 04:07:06,456 - INFO - 从本地数据库获取角色: twist - Rifler
+2025-12-11 04:07:06,456 - INFO - ✓ 更新成功: twist -> Alliance
+2025-12-11 04:07:06,457 - INFO - 正在处理 (135/211): Lekr0
+2025-12-11 04:07:08,185 - INFO - 从本地数据库获取角色: Lekr0 - Rifler
+2025-12-11 04:07:08,185 - INFO - ✓ 更新成功: Lekr0 -> Johnny Speeds
+2025-12-11 04:07:08,186 - INFO - 正在处理 (136/211): aizy
+2025-12-11 04:07:10,455 - INFO - ✓ 更新成功: aizy -> Free Agent
+2025-12-11 04:07:10,455 - INFO - 正在处理 (137/211): MSL
+2025-12-11 04:07:12,199 - INFO - 从本地数据库获取角色: MSL - Rifler
+2025-12-11 04:07:12,199 - INFO - ✓ 更新成功: MSL -> Free Agent
+2025-12-11 04:07:12,200 - INFO - 正在处理 (138/211): cajunb
+2025-12-11 04:07:14,462 - INFO - ✓ 更新成功: cajunb -> Free Agent
+2025-12-11 04:07:14,462 - INFO - 正在处理 (139/211): TenZ
+2025-12-11 04:07:16,167 - INFO - 从本地数据库获取角色: TenZ - Rifler
+2025-12-11 04:07:16,168 - INFO - ✓ 更新成功: TenZ -> Free Agent
+2025-12-11 04:07:16,168 - INFO - 正在处理 (140/211): s0m
+2025-12-11 04:07:18,443 - INFO - ✓ 更新成功: s0m -> Free Agent
+2025-12-11 04:07:18,443 - INFO - 进度: 140/211 (66.4%)
+2025-12-11 04:07:18,443 - INFO - 正在处理 (141/211): smooya
+2025-12-11 04:07:20,435 - INFO - ✓ 更新成功: smooya -> Free Agent
+2025-12-11 04:07:20,435 - INFO - 正在处理 (142/211): Grim
+2025-12-11 04:07:22,188 - INFO - ✓ 更新成功: Grim -> Passion UA
+2025-12-11 04:07:22,188 - INFO - 正在处理 (143/211): floppy
+2025-12-11 04:07:24,661 - INFO - ✓ 更新成功: floppy -> Free Agent
+2025-12-11 04:07:24,661 - INFO - 正在处理 (144/211): oSee
+2025-12-11 04:07:26,442 - INFO - ✓ 更新成功: oSee -> NRG
+2025-12-11 04:07:26,442 - INFO - 正在处理 (145/211): junior
+2025-12-11 04:07:28,429 - INFO - ✓ 更新成功: junior -> SkinRave Esports
+2025-12-11 04:07:28,429 - INFO - 正在处理 (146/211): ztr
+2025-12-11 04:07:30,447 - INFO - 从本地数据库获取角色: ztr - Rifler
+2025-12-11 04:07:30,447 - INFO - ✓ 更新成功: ztr -> GamerLegion
+2025-12-11 04:07:30,447 - INFO - 正在处理 (147/211): frozen
+2025-12-11 04:07:32,445 - INFO - ✓ 更新成功: frozen -> FaZe Clan
+2025-12-11 04:07:32,445 - INFO - 正在处理 (148/211): huNter
+2025-12-11 04:07:34,443 - INFO - 从本地数据库获取角色: huNter - Rifler
+2025-12-11 04:07:34,444 - INFO - ✓ 更新成功: huNter -> G2 Esports
+2025-12-11 04:07:34,444 - INFO - 正在处理 (149/211): NertZ
+2025-12-11 04:07:36,168 - INFO - ✓ 更新成功: NertZ -> Team Liquid
+2025-12-11 04:07:36,168 - INFO - 正在处理 (150/211): SunPayus
+2025-12-11 04:07:38,187 - INFO - ✓ 更新成功: SunPayus -> G2 Esports
+2025-12-11 04:07:38,187 - INFO - 进度: 150/211 (71.1%)
+2025-12-11 04:07:38,187 - INFO - 正在处理 (151/211): jL
+2025-12-11 04:07:40,435 - INFO - ✓ 更新成功: jL -> Natus Vincere
+2025-12-11 04:07:40,435 - INFO - 正在处理 (152/211): Summer
+2025-12-11 04:07:42,180 - INFO - 从本地数据库获取角色: Summer - Rifler
+2025-12-11 04:07:42,180 - INFO - ✓ 更新成功: Summer -> Rare Atom
+2025-12-11 04:07:42,180 - INFO - 正在处理 (153/211): Starry
+2025-12-11 04:07:44,180 - INFO - ✓ 更新成功: Starry -> Lynn Vision Gaming
+2025-12-11 04:07:44,180 - INFO - 正在处理 (154/211): EliGE
+2025-12-11 04:07:46,211 - INFO - ✓ 更新成功: EliGE -> Team Liquid
+2025-12-11 04:07:46,211 - INFO - 正在处理 (155/211): magixx
+2025-12-11 04:07:48,446 - INFO - ✓ 更新成功: magixx -> Team Spirit
+2025-12-11 04:07:48,446 - INFO - 正在处理 (156/211): chopper
+2025-12-11 04:07:50,507 - INFO - 从本地数据库获取角色: chopper - Rifler
+2025-12-11 04:07:50,507 - INFO - ✓ 更新成功: chopper -> Team Spirit
+2025-12-11 04:07:50,507 - INFO - 正在处理 (157/211): zont1x
+2025-12-11 04:07:52,433 - INFO - ✓ 更新成功: zont1x -> Team Spirit
+2025-12-11 04:07:52,433 - INFO - 正在处理 (158/211): siuhy
+2025-12-11 04:07:54,430 - INFO - 从本地数据库获取角色: siuhy - Rifler
+2025-12-11 04:07:54,431 - INFO - ✓ 更新成功: siuhy -> Team Liquid
+2025-12-11 04:07:54,431 - INFO - 正在处理 (159/211): bLitz
+2025-12-11 04:07:56,455 - INFO - 从本地数据库获取角色: bLitz - Rifler
+2025-12-11 04:07:56,456 - INFO - ✓ 更新成功: bLitz -> The MongolZ
+2025-12-11 04:07:56,456 - INFO - 正在处理 (160/211): Techno
+2025-12-11 04:07:58,198 - INFO - ✓ 更新成功: Techno -> The MongolZ
+2025-12-11 04:07:58,198 - INFO - 进度: 160/211 (75.8%)
+2025-12-11 04:07:58,198 - INFO - 正在处理 (161/211): Senzu
+2025-12-11 04:08:00,182 - INFO - 从本地数据库获取角色: Senzu - Rifler
+2025-12-11 04:08:00,182 - INFO - ✓ 更新成功: Senzu -> The MongolZ
+2025-12-11 04:08:00,182 - INFO - 正在处理 (162/211): mzinho
+2025-12-11 04:08:02,432 - INFO - ✓ 更新成功: mzinho -> The MongolZ
+2025-12-11 04:08:02,433 - INFO - 正在处理 (163/211): 910
+2025-12-11 04:08:04,175 - INFO - ✓ 更新成功: 910 -> The MongolZ
+2025-12-11 04:08:04,175 - INFO - 正在处理 (164/211): Wicadia
+2025-12-11 04:08:06,183 - INFO - ✓ 更新成功: Wicadia -> Aurora Gaming
+2025-12-11 04:08:06,183 - INFO - 正在处理 (165/211): HeavyGod
+2025-12-11 04:08:08,190 - INFO - ✓ 更新成功: HeavyGod -> G2 Esports
+2025-12-11 04:08:08,190 - INFO - 正在处理 (166/211): torzsi
+2025-12-11 04:08:10,447 - INFO - ✓ 更新成功: torzsi -> MOUZ
+2025-12-11 04:08:10,447 - INFO - 正在处理 (167/211): Jimpphat
+2025-12-11 04:08:12,184 - INFO - ✓ 更新成功: Jimpphat -> MOUZ
+2025-12-11 04:08:12,184 - INFO - 正在处理 (168/211): flameZ
+2025-12-11 04:08:14,449 - INFO - ✓ 更新成功: flameZ -> Team Vitality
+2025-12-11 04:08:14,449 - INFO - 正在处理 (169/211): mezii
+2025-12-11 04:08:16,450 - INFO - ✓ 更新成功: mezii -> Team Vitality
+2025-12-11 04:08:16,450 - INFO - 正在处理 (170/211): jottAAA
+2025-12-11 04:08:18,437 - INFO - ✓ 更新成功: jottAAA -> Aurora Gaming
+2025-12-11 04:08:18,438 - INFO - 进度: 170/211 (80.6%)
+2025-12-11 04:08:18,438 - INFO - 正在处理 (171/211): iM
+2025-12-11 04:08:20,423 - INFO - ✓ 更新成功: iM -> Natus Vincere
+2025-12-11 04:08:20,423 - INFO - 正在处理 (172/211): w0nderful
+2025-12-11 04:08:22,435 - INFO - ✓ 更新成功: w0nderful -> Natus Vincere
+2025-12-11 04:08:22,435 - INFO - 正在处理 (173/211): kyxsan
+2025-12-11 04:08:24,437 - INFO - 从本地数据库获取角色: kyxsan - Rifler
+2025-12-11 04:08:24,437 - INFO - ✓ 更新成功: kyxsan -> Team Falcons
+2025-12-11 04:08:24,438 - INFO - 正在处理 (174/211): Maka
+2025-12-11 04:08:26,185 - INFO - ✓ 更新成功: Maka -> 3DMAX
+2025-12-11 04:08:26,185 - INFO - 正在处理 (175/211): Staehr
+2025-12-11 04:08:28,195 - INFO - ✓ 更新成功: Staehr -> Astralis
+2025-12-11 04:08:28,195 - INFO - 正在处理 (176/211): FL4MUS
+2025-12-11 04:08:30,184 - INFO - ✓ 更新成功: FL4MUS -> Free Agent
+2025-12-11 04:08:30,184 - INFO - 正在处理 (177/211): fame
+2025-12-11 04:08:32,431 - INFO - ✓ 更新成功: fame -> Virtus.pro
+2025-12-11 04:08:32,431 - INFO - 正在处理 (178/211): ICY
+2025-12-11 04:08:34,202 - INFO - ✓ 更新成功: ICY -> Virtus.pro
+2025-12-11 04:08:34,203 - INFO - 正在处理 (179/211): ultimate
+2025-12-11 04:08:36,448 - INFO - ✓ 更新成功: ultimate -> Team Liquid
+2025-12-11 04:08:36,449 - INFO - 正在处理 (180/211): snow
+2025-12-11 04:08:38,469 - INFO - ✓ 更新成功: snow -> paiN Gaming
+2025-12-11 04:08:38,470 - INFO - 进度: 180/211 (85.3%)
+2025-12-11 04:08:38,470 - INFO - 正在处理 (181/211): nqz
+2025-12-11 04:08:40,451 - INFO - ✓ 更新成功: nqz -> paiN Gaming
+2025-12-11 04:08:40,451 - INFO - 正在处理 (182/211): Tauson
+2025-12-11 04:08:42,188 - INFO - ✓ 更新成功: Tauson -> GamerLegion
+2025-12-11 04:08:42,188 - INFO - 正在处理 (183/211): sl3nd
+2025-12-11 04:08:44,450 - INFO - ✓ 更新成功: sl3nd -> GamerLegion
+2025-12-11 04:08:44,451 - INFO - 正在处理 (184/211): PR
+2025-12-11 04:08:46,180 - INFO - ✓ 更新成功: PR -> GamerLegion
+2025-12-11 04:08:46,180 - INFO - 正在处理 (185/211): story
+2025-12-11 04:08:48,446 - INFO - ✓ 更新成功: story -> SAW
+2025-12-11 04:08:48,446 - INFO - 正在处理 (186/211): skullz
+2025-12-11 04:08:50,449 - INFO - ✓ 更新成功: skullz -> Imperial Esports
+2025-12-11 04:08:50,449 - INFO - 正在处理 (187/211): exit
+2025-12-11 04:08:52,458 - INFO - 从本地数据库获取角色: exit - Rifler
+2025-12-11 04:08:52,458 - INFO - ✓ 更新成功: exit -> MIBR
+2025-12-11 04:08:52,458 - INFO - 正在处理 (188/211): Lucaozy
+2025-12-11 04:08:54,198 - INFO - ✓ 更新成功: Lucaozy -> Fluxo
+2025-12-11 04:08:54,198 - INFO - 正在处理 (189/211): brnz4n
+2025-12-11 04:08:56,487 - INFO - ✓ 更新成功: brnz4n -> MIBR
+2025-12-11 04:08:56,487 - INFO - 正在处理 (190/211): insani
+2025-12-11 04:08:58,492 - INFO - ✓ 更新成功: insani -> MIBR
+2025-12-11 04:08:58,492 - INFO - 进度: 190/211 (90.0%)
+2025-12-11 04:08:58,492 - INFO - 正在处理 (191/211): phzy
+2025-12-11 04:09:10,395 - INFO - ✓ 更新成功: phzy -> 9INE
+2025-12-11 04:09:10,395 - INFO - 正在处理 (192/211): JBa
+2025-12-11 04:09:10,711 - INFO - ✓ 更新成功: JBa -> Wildcard
+2025-12-11 04:09:10,711 - INFO - 正在处理 (193/211): LNZ
+2025-12-11 04:09:12,712 - INFO - ✓ 更新成功: LNZ -> HEROIC
+2025-12-11 04:09:12,713 - INFO - 正在处理 (194/211): JDC
+2025-12-11 04:09:14,718 - INFO - ✓ 更新成功: JDC -> BIG
+2025-12-11 04:09:14,718 - INFO - 正在处理 (195/211): fear
+2025-12-11 04:09:16,967 - INFO - 从本地数据库获取角色: fear - Rifler
+2025-12-11 04:09:16,967 - INFO - ✓ 更新成功: fear -> Fnatic
+2025-12-11 04:09:16,967 - INFO - 正在处理 (196/211): somebody
+2025-12-11 04:09:18,963 - INFO - ✓ 更新成功: somebody -> Free Agent
+2025-12-11 04:09:18,963 - INFO - 正在处理 (197/211): CYPHER
+2025-12-11 04:09:20,715 - INFO - ✓ 更新成功: CYPHER -> Free Agent
+2025-12-11 04:09:20,715 - INFO - 正在处理 (198/211): jkaem
+2025-12-11 04:09:23,047 - INFO - ✓ 更新成功: jkaem -> BC.Game Esports
+2025-12-11 04:09:23,047 - INFO - 正在处理 (199/211): kaze
+2025-12-11 04:09:24,973 - INFO - 从本地数据库获取角色: kaze - AWPer
+2025-12-11 04:09:24,974 - INFO - ✓ 更新成功: kaze -> Rare Atom
+2025-12-11 04:09:24,974 - INFO - 正在处理 (200/211): ChildKing
+2025-12-11 04:09:26,710 - INFO - ✓ 更新成功: ChildKing -> Rare Atom
+2025-12-11 04:09:26,710 - INFO - 进度: 200/211 (94.8%)
+2025-12-11 04:09:26,710 - INFO - 正在处理 (201/211): L1haNg
+2025-12-11 04:09:28,708 - INFO - ✓ 更新成功: L1haNg -> Rare Atom
+2025-12-11 04:09:28,708 - INFO - 正在处理 (202/211): Attacker
+2025-12-11 04:09:30,717 - INFO - ✓ 更新成功: Attacker -> TYLOO
+2025-12-11 04:09:30,718 - INFO - 正在处理 (203/211): JamYoung
+2025-12-11 04:09:32,720 - INFO - ✓ 更新成功: JamYoung -> TYLOO
+2025-12-11 04:09:32,720 - INFO - 正在处理 (204/211): Jee
+2025-12-11 04:09:34,716 - INFO - ✓ 更新成功: Jee -> TYLOO
+2025-12-11 04:09:34,716 - INFO - 正在处理 (205/211): Mercury
+2025-12-11 04:09:36,717 - INFO - 从本地数据库获取角色: Mercury - Rifler
+2025-12-11 04:09:36,718 - INFO - ✓ 更新成功: Mercury -> TYLOO
+2025-12-11 04:09:36,718 - INFO - 正在处理 (206/211): Moseyuh
+2025-12-11 04:09:38,719 - INFO - 从本地数据库获取角色: Moseyuh - Rifler
+2025-12-11 04:09:38,719 - INFO - ✓ 更新成功: Moseyuh -> TYLOO
+2025-12-11 04:09:38,720 - INFO - 正在处理 (207/211): Westmelon
+2025-12-11 04:09:40,718 - INFO - 从本地数据库获取角色: Westmelon - Rifler
+2025-12-11 04:09:40,719 - INFO - ✓ 更新成功: Westmelon -> Lynn Vision Gaming
+2025-12-11 04:09:40,719 - INFO - 正在处理 (208/211): z4kr
+2025-12-11 04:09:42,976 - INFO - 从本地数据库获取角色: z4kr - Rifler
+2025-12-11 04:09:42,977 - INFO - ✓ 更新成功: z4kr -> Lynn Vision Gaming
+2025-12-11 04:09:42,977 - INFO - 正在处理 (209/211): EmiliaQAQ
+2025-12-11 04:09:44,727 - INFO - ✓ 更新成功: EmiliaQAQ -> Lynn Vision Gaming
+2025-12-11 04:09:44,727 - INFO - 正在处理 (210/211): C4LLM3SU3
+2025-12-11 04:09:46,720 - INFO - ✓ 更新成功: C4LLM3SU3 -> Lynn Vision Gaming
+2025-12-11 04:09:46,720 - INFO - 进度: 210/211 (99.5%)
+2025-12-11 04:09:46,720 - INFO - 正在处理 (211/211): xertioN
+2025-12-11 04:09:48,980 - INFO - ✓ 更新成功: xertioN -> MOUZ
+2025-12-11 04:09:48,981 - INFO - 已保存 211 个选手信息到 output\updated_players.csv
